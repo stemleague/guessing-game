@@ -16,17 +16,7 @@ guesses = 0 # Since the user has not used any of their guesses yet, it is set to
   # 3) If their guessed number is greater than the generated number
   # For each of these cases, we want to inform the user of their guesses and make sure they guess again!
 ##### YOUR CODE HERE #####
-while guesses <= 10:
-  if guessed_num < generated_num and guessed_num > generated_num:
-    print("Your number is within the range of 1-100!")
-    print("Guess again!")
-    
-  if guessed_num < generated_num:
-    print("Your number is too low!")
-    print("Guess again!")
-  elif guessed_num > generated_num:
-    print("Your number is too high!")
-    print("Guess again!")
+
 
 
 
