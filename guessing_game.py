@@ -4,8 +4,8 @@
 import random 
 # also, you want to use the random.randint(a, b) method in python. Essentially, this will return a random integer N such that a <= N <= b (range from a to b).
 # Since we want to let the user pick the range of the number to be guessed, we can use the input() function. For example, if we want the user to guess numbers from 1 to 100, then we can do:
-generated_num = int(input("Give a guess on the number I am thinking of! : ")) # remember to cast the user's input to an integer!
-guessed_num = random.randint(1, 100)
+guessed_num = int(input("Give a guess on the number I am thinking of! : ")) # remember to cast the user's input to an integer!
+generated_num = random.randint(1, 100)
 guesses = 0 # Since the user has not used any of their guesses yet, it is set to 0
 
 # PART 1: For this lesson, we learned about while loops and since this is a guessing game, we want the user to keep guessing UNTIL they guess the randomly generated number. Therefore, our while loop will need to contain this conditional:
